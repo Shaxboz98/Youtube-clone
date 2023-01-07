@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Main from '../components/Main';
 import Navbar from '../components/Navbar';
 
 class Root extends Component {
@@ -6,6 +7,7 @@ class Root extends Component {
     return (
       <div>
         <Navbar/>
+        <Main/>
       </div>
     )
   }

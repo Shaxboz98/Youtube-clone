@@ -15,11 +15,11 @@ width: 100%;
 height: 56px;
 background: #212121;
 ${common}
-padding: 0 27px;
 `
 const NavLeft=styled('div')`
 width: 300px;
 gap: 27;
+padding: 0 27px;
 ${common}
 `
 NavLeft.Menu=styled(menu)`

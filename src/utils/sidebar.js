@@ -74,3 +74,50 @@ export const data3 = [
     icon: kegfet,
   },
 ];
+
+export const btnData=[
+  {
+    id:1,
+    name:'Kino',
+  },
+  {
+    id:2,
+    name:'Comedy',
+  },
+  {
+    id:3,
+    name:'Mix',
+  },
+  {
+    id:4,
+    name:'Cartoons ',
+  },
+  {
+    id:5,
+    name:'Muzik',
+  },
+  {
+    id:6,
+    name:'Futbol',
+  },
+  {
+    id:7,
+    name:'El sanatlari ',
+  },
+  {
+    id:8,
+    name:'UX Tasarim ',
+  },
+  {
+    id:9,
+    name:'Animasyon  ',
+  },
+  {
+    id:10,
+    name:'Görsel sanatlar ',
+  },
+  {
+    id:11,
+    name:'Son yüklenenler',
+  },
+]

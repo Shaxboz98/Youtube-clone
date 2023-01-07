@@ -8,7 +8,9 @@ align-items: center;
 const Container = styled.div`
 width: 240px;
 height: calc(100vh - 56px);
-background: #212121;
+background: rgba(33, 33, 33, 1);
+opacity: 0.7;
+border: 1px solid rgba(255, 255, 255, 0.2);
 `
 const Items=styled.ul`
 display: flex;

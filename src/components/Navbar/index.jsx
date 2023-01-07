@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Sidebar from "../Sidebar";
+// import Sidebar from "../Sidebar";
 import {
   Container,
   Input,
@@ -13,7 +13,7 @@ import {
 class Navbar extends Component {
   render() {
     return (
-      <div style={{display:'flex',flexDirection:'column'}}>
+      <div style={{display:'flex',flexDirection:'column',width:'100%'}}>
         <Container>
           <NavLeft>
             <NavLeft.Menu />
@@ -34,7 +34,7 @@ class Navbar extends Component {
             <NavRigth.User />
           </NavRigth>
         </Container>
-        <Sidebar/>
+        {/* <Sidebar/> */}
       </div>
     );
   }

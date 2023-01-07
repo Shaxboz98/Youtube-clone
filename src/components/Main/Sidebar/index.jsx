@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Icon, Item, Items, Text, Title } from './style';
-import { data, data2, data3 } from '../../utils/sidebar';
+import { data, data2, data3 } from '../../../utils/sidebar.js';
 class Sidebar extends Component {
   render() {
     return (
